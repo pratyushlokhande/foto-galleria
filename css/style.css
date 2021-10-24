@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Festive&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 30vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header h2 {
+  padding: 2rem;
+  font-family: "Festive", cursive;
+  font-size: 5rem;
+}
+
+body header #logo {
+  text-decoration: none;
+  color: #2b2d42;
+}
+
+body header .search-form {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .search-form input {
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border: 2px solid #2b2d42;
+}
+
+body header .search-form input:focus {
+  outline: none;
+}
+
+body header .search-form button {
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  background-color: #2b2d42;
+  color: #fff;
+  cursor: pointer;
+}
+
+body .gallery-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: gray;
+  padding: 0.5rem 0;
+}
+
+body .gallery-info a {
+  color: gray;
+}
+
+body .gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(350px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 2rem 0;
+  width: 80%;
+  margin: auto;
+  row-gap: 5rem;
+  -webkit-column-gap: 3rem;
+          column-gap: 3rem;
+}
+
+body .gallery img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+body .nav-btn {
+  min-height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .nav-btn .more {
+  padding: 1rem 3rem;
+  background-color: #2b2d42;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
