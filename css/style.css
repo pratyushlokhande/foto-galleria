@@ -34,6 +34,12 @@ body header h2 {
   font-size: 5rem;
 }
 
+@media screen and (max-width: 768px) {
+  body header h2 {
+    font-size: 3rem;
+  }
+}
+
 body header #logo {
   text-decoration: none;
   color: #2b2d42;
@@ -128,5 +134,19 @@ body .nav-btn .more {
   border: none;
   font-size: 1.2rem;
   cursor: pointer;
+}
+
+footer {
+  min-height: 30vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: #000;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #2b2d42;
 }
 /*# sourceMappingURL=style.css.map */
